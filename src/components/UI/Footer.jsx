@@ -1,11 +1,10 @@
-import { NavLink } from "react-router-dom";
-
 export const Footer = () => {
   return (
     <footer className="footer-section">
       <div className="container">
         <div className="grid grid-two-cols" style={{ padding: "3.2rem" }}>
 
+          {/* Find Us */}
           <div className="footer-contact">
             <div className="icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="#3a4ed5">
@@ -13,18 +12,22 @@ export const Footer = () => {
               </svg>
             </div>
             <div className="footer-contact-text">
-              <p>World Atlas</p>
-              <p>Explore every country on Earth</p>
+              <p>Find Us</p>
+              <p>123 Atlas Street, World City</p>
             </div>
           </div>
 
-          <div className="footer-menu">
-            <ul>
-              <li><NavLink to="/">Home</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/country">Country</NavLink></li>
-              <li><NavLink to="/contact">Contact</NavLink></li>
-            </ul>
+          {/* Mail Us */}
+          <div className="footer-contact">
+            <div className="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="#3a4ed5">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+              </svg>
+            </div>
+            <div className="footer-contact-text">
+              <p>Mail Us</p>
+              <p>contact@worldatlas.com</p>
+            </div>
           </div>
 
         </div>
@@ -32,16 +35,9 @@ export const Footer = () => {
 
       <div className="copyright-area">
         <div className="container">
-          <div className="grid grid-two-cols" style={{ padding: "0 3.2rem" }}>
+          <div style={{ padding: "0 3.2rem" }}>
             <div className="copyright-text">
               <p>Copyright &copy; 2024, World Atlas. All Rights Reserved.</p>
-            </div>
-            <div className="footer-menu">
-              <ul>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/contact">Contact</NavLink></li>
-              </ul>
             </div>
           </div>
         </div>
