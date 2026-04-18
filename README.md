@@ -1,10 +1,12 @@
 # 🌍 World Atlas
 
-A React app to explore information about every country in the world using the REST Countries API.
+> A React app to explore information about every country in the world.
 
 ## 🔗 Live Demo
 
-[View Live](https://react-country-two.vercel.app)
+**[https://react-country-two.vercel.app](https://react-country-two.vercel.app)**
+
+---
 
 ## 📸 Features
 
