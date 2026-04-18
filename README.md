@@ -1,16 +1,53 @@
-# React + Vite
+# 🌍 World Atlas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app to explore information about every country in the world using the REST Countries API.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live](https://react-country-two.vercel.app)
 
-## React Compiler
+## 📸 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse 195+ countries with flag, population, region & capital
+- Search countries by name
+- Filter countries by region
+- Detailed country page with languages, currencies, borders & more
+- Responsive design with mobile hamburger menu
+- Custom React hook for data fetching
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- React Router v7
+- REST Countries API
+- CSS (custom, no framework)
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── layout/     # AppLayout with Outlet
+│   └── UI/         # Header, Footer
+├── hooks/
+│   └── useCountries.js   # custom hook for API fetch
+├── pages/
+│   ├── Home.jsx
+│   ├── Country.jsx
+│   ├── CountryDetail.jsx
+│   ├── About.jsx
+│   └── Contact.jsx
+└── App.jsx
+```
+
+## 🌐 API
+
+Data sourced from [REST Countries API](https://restcountries.com)
